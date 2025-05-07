@@ -3,7 +3,8 @@
 ## UI Overview
 
 The UI design for the Educational Dashboard System will follow modern dashboard design principles with clean aesthetics, intuitive navigation, and responsive layouts. We'll use a component-based approach that aligns with React development practices.
-Refer to this to get an idea : (https://www.figma.com/design/CeKdxRICslyAWY9XoAQijK/Crud-Operations--Community-?node-id=0-1&t=cg61xvbTTNjDQqzm-1)[Layout Example]
+Refer to this to get an idea : [Layout Example](https://www.figma.com/design/CeKdxRICslyAWY9XoAQijK/Crud-Operations--Community-?node-id=0-1&t=cg61xvbTTNjDQqzm-1)
+
 
 ## Design System
 
