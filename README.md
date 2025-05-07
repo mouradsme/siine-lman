@@ -13,13 +13,12 @@ This project involves creating a comprehensive dashboard system for educational 
 
 ## Technical Architecture
 
-Based on the student's knowledge of C programming, HTML, CSS, JS, and some React, we recommend:
+Based on the provided list of skills in: C programming, HTML, CSS, JS, and some React, these are the recommended stacks:
 
 - **Frontend**: React.js with a component library (Material UI or Chakra UI)
 - **Backend**: Node.js with Express (REST API)
-- **Database**: MongoDB (for flexible schema) or PostgreSQL
-- **Authentication**: JWT-based authentication
-- **State Management**: Context API or Redux
+- **Database**: SQLite (easy implementation) or Postgres/MySQL
+- **Authentication**: JWT-based authentication (Or anything else)
 
 ## Project Phases
 
@@ -29,7 +28,7 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
    - Create React application
    - Set up project structure
    - Install necessary dependencies
-   - Set up version control (Git)
+   - Set up version control (Optional but very practical and future-proof)
 
 2. **Authentication System**
    - Login/logout functionality
@@ -42,14 +41,14 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
    - Main dashboard layout
    - Navigation menu
    - Role-specific views
+   - Check the provided '[UI Guidelines.md](https://github.com/mouradsme/siine-lman/blob/main/UI%20Guidelines.md)' file for more
 
 ### Phase 2: Admin Dashboard
 
 1. **Category Management**
    - Create/edit/delete categories
    - Set parent categories
-   - Visualize category hierarchy
-   - Drag-and-drop category organization
+   - Drag-and-drop category organization (Extra feature - Optional)
 
 2. **Subject Management**
    - Create/edit/delete subjects
@@ -61,33 +60,30 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
    - Create teacher accounts
    - Manage teacher information
    - Assign/remove subjects from teachers
-   - View teacher workload
+   - View teacher workload (Extra feature - Optional)
 
 ### Phase 3: Teacher Dashboard
 
-1. **Learning Path Management**
-   - Create/edit/delete learning paths for assigned subjects
-   - Version control for learning path editions
-   - Visualize learning path structure
-   - Organize content within paths
-
-2. **Lesson Management**
+1. **Lesson Management**
    - Create/edit/delete lessons
-   - Rich text editor for lesson content
-   - Media embedding (images, videos)
-   - Lesson preview functionality
+   - Media files (Pdf, images ...)
 
-3. **Quiz Management**
+2. **Quiz Management**
    - Create/edit/delete quizzes
    - Multiple question types:
      - Multiple choice
      - True/False
      - Short answer
      - Matching
-   - Answer validation logic
-   - Quiz settings (time limits, attempts)
-
+  
+3. **Learning Path Management (Extra feature - Optional)**
+   - Create/edit/delete learning paths for assigned subjects
+   - Visualize learning path structure
+   - Organize content within paths
+   - Version control for learning path editions
+   - 
 ### Phase 4: Data Relationships & Advanced Features
+Follow this link for a better visualization of the DB Design: [DBDiagrams.io](https://dbdiagram.io/d/Siine-LMAN-DB-Design-681ac6605b2fc4582f839d6b)
 
 1. **Implement Data Relationships**
    - Categories to subcategories (one-to-many)
@@ -221,7 +217,6 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
 ```
 
 ## API Endpoints
-
 ### Authentication
 - `POST /api/auth/login` - User login
 - `POST /api/auth/logout` - User logout
@@ -279,58 +274,15 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
 - `DELETE /api/questions/:id` - Delete question
 
 ## Implementation Tips
+- Begin with core functionality and expand
+- Implement one feature at a time
+- Test thoroughly before moving on
+- Use reusable components for faster coding
+- Follow a consistent design system
+- Follow a consistent folder structure
+- Use clear naming conventions
+- Document code where necessary
 
-1. **Start Small**
-   - Begin with core functionality and expand
-   - Implement one feature at a time
-   - Test thoroughly before moving on
-
-2. **Component Design**
-   - Use reusable components
-   - Follow a consistent design system
-   - Consider responsive design from the start
-
-3. **State Management**
-   - Use Context API for simple state management
-   - Consider Redux for more complex state needs
-   - Organize state logically by feature
-
-4. **Authentication & Security**
-   - Implement proper validation
-   - Use HTTP-only cookies for JWT
-   - Apply role-based access control consistently
-
-5. **Testing**
-   - Write unit tests for components
-   - Test API endpoints
-   - Perform usability testing
-
-6. **Code Organization**
-   - Follow a consistent folder structure
-   - Use clear naming conventions
-   - Document code where necessary
-
-## Development Workflow
-
-1. **Planning**
-   - Define requirements for each feature
-   - Create wireframes/mockups
-   - Plan database schema
-
-2. **Development**
-   - Set up project structure
-   - Implement core functionality
-   - Add features incrementally
-
-3. **Testing**
-   - Test each feature thoroughly
-   - Fix bugs as they arise
-   - Get feedback from stakeholders
-
-4. **Deployment**
-   - Set up deployment environment
-   - Deploy application
-   - Monitor for issues
 
 ## Learning Resources
 - React Documentation: https://reactjs.org/docs/getting-started.html
