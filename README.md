@@ -332,7 +332,13 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
    - Deploy application
    - Monitor for issues
 
-## Resources
+## Learning Resources
+- React Documentation: https://reactjs.org/docs/getting-started.html
+- Node.js Documentation: https://nodejs.org/en/docs/
+- MongoDB Documentation: https://docs.mongodb.com/
+- JWT Authentication Tutorial: https://jwt.io/introduction/
+
+## Other Helpful Resources
 
 ### React Libraries
 - Material UI: https://mui.com/
@@ -346,9 +352,3 @@ Based on the student's knowledge of C programming, HTML, CSS, JS, and some React
 - Mongoose (MongoDB): https://mongoosejs.com/
 - JWT: https://jwt.io/
 - Bcrypt: https://www.npmjs.com/package/bcrypt
-
-### Learning Resources
-- React Documentation: https://reactjs.org/docs/getting-started.html
-- Node.js Documentation: https://nodejs.org/en/docs/
-- MongoDB Documentation: https://docs.mongodb.com/
-- JWT Authentication Tutorial: https://jwt.io/introduction/
