@@ -89,10 +89,12 @@ If you manage to make this app, it will open up a whole world of opportunities i
   - Junior Web/App Developer
   - Software Developer Intern
   - REST API Developer
-
-After you've read the summary, you can go to the [Project's](https://github.com/mouradsme/siine-lman) main github repo.
-Start by reading the Project Plan where I provided a detailed plan on how to develop this app in an incremental approach.
-It would be best to do the development alone, but do not hesitate to ask for help in case you are stuck.
-In order to get a taste of how most remote programming jobs are managed, I highly recommend you use a task managementt app like clockify to manage your tasks (Google Sheets/Excel are valid options too).
+    
+## After you've read this summary
+   - You can go to the [Project's](https://github.com/mouradsme/siine-lman) main github repo.
+   - Start by reading the Project Plan where I provided a detailed plan on how to develop this app in an incremental approach.
+   - It would be best to do the development on your own (you can rely on the Internet/Coding AIs too, but make sure you understand what you are implementing).
+   - Do not hesitate to ask for help in case you are stuck.
+   - In order to get a taste of how most remote programming jobs are managed, I highly recommend you use a task management app like clockify or even better and simpler: Google Sheets/Excel.
 
 Good luck!
